@@ -1,17 +1,39 @@
-const TextStyleConfig = () => {
+/* eslint-disable react/prop-types */
+const TextStyleConfig = ({
+  fontSize,
+  setFontSize,
+  fontColor,
+  setFontColor,
+  isBold,
+  setIsBold,
+}) => {
   return (
     <div className="textStyleConfig">
       <label className="configLabel">
-        Font SIze:
-        <input type="text" className="input" />
+        Font Size:
+        <input
+          type="text"
+          className="input"
+          value={fontSize}
+          onChange={(e) => setFontSize(e.target.value)}
+        />
       </label>
       <label className="configLabel">
         Font Color:
-        <input type="color" className="colorPicker" />
+        <input
+          type="color"
+          className="colorPicker"
+          value={fontColor}
+          onChange={(e) => setFontColor(e.target.value)}
+        />
       </label>
       <label className="configLabel">
         Bold:
-        <input type="checkbox" />
+        <input
+          type="checkbox"
+          value={isBold}
+          onChange={(e) => setIsBold(e.target.value)}
+        />
       </label>
     </div>
   );
