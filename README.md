@@ -20,11 +20,11 @@
 
 Para rodar o projeto localmente, siga os passos abaixo:
 
-````
 1. Clone o repositório (somente leitura):
+
 ```sh
 git clone https://github.com/JefsonOliveira/gerador_pdf_dinamico.git
-````
+```
 
 2. Navegue até o diretório do projeto:
    ```sh
