@@ -6,9 +6,7 @@
 
 - 📄 **Criação de PDFs Dinâmicos**: Gera PDFs com conteúdo dinâmico conforme a necessidade do usuário.
 - 🖼️ **Suporte a Imagens**: Insira imagens nos seus PDFs.
-- 📊 **Tabelas e Gráficos**: Adicione tabelas e gráficos para uma melhor apresentação dos dados.
 - 🎨 **Estilização Customizável**: Personalize o estilo do PDF, incluindo fontes, cores e layout.
-- 🌍 **Internacionalização**: Suporte a múltiplos idiomas para criar PDFs em diferentes linguagens.
 
 ## Tecnologias Utilizadas
 
