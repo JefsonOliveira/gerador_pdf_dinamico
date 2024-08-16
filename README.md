@@ -11,8 +11,8 @@
 ## Tecnologias Utilizadas
 
 - **Biblioteca de Geração de PDF**: pdfmake
-- **Frontend**: ReactJS (se aplicável)
-- **Estilo**: CSS (se aplicável)
+- **Frontend**: ReactJS
+- **Estilo**: CSS
 
 ## Instalação e Uso
 
